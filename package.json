@@ -1,8 +1,12 @@
 {
-  "name": "minimal-react-webpack-babel-setup",
+  "name": "minimal-react-redux-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffpowrs/minimal-react-redux-setup.git"
+  },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js",
     "test": "echo \"No test specified\" && exit 0"
@@ -20,8 +24,13 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-preset-env": "^1.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "styled-components": "^3.1.6"
   }
 }
