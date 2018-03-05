@@ -16,7 +16,7 @@ Adapted from the [The Minimal React Redux Setup](https://www.robinwieruch.de/min
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/minimal-react-redux-setup.git`
+* `git clone git@github.com/jeffpowrs/minimal-react-redux-setup.git`
 * cd minimal-react-redux-setup
 * npm install
 * npm start
